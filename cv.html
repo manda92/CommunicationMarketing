@@ -2,118 +2,182 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>CV - Prénom Nom</title>
-    <link rel="stylesheet" href="style.css"> <!-- tu peux réutiliser ton style CSS -->
-    <style>
-        /* Styles simples pour CV */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.5;
-            color: #333;
-            background-color: #f4f4f9;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        h1 {
-            font-size: 2em;
-            margin-bottom: 5px;
-        }
-        h2 {
-            font-size: 1.2em;
-            margin-top: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-        .job-title {
-            font-weight: bold;
-        }
-        .company {
-            font-style: italic;
-        }
-        .date {
-            float: right;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Manda DABO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
 <header>
-    <h1>Prénom Nom</h1>
-    <p>M1 MIAGE, Université de Nanterre | Alternance chez Bouygues Telecom</p>
-    <p>Email : ton.email@exemple.com | Téléphone : 06 00 00 00 00</p>
+    <h1>Manda DABO</h1>
+    <p>Ingénieur Outil & Automatisation (Apprenti) | Master 1 MIAGE</p>
+    <div style="margin-top: 15px;">
+        <a href="https://www.linkedin.com/in/manda-dabo-363652356/?skipRedirect=true" target="_blank" style="color: white; margin-right: 15px; text-decoration: none;">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        
+    </div>
 </header>
 
-<main>
-    <section class="section">
-        <h2>Profil</h2>
-        <p>Étudiant en Master 1 MIAGE à l’Université de Nanterre, actuellement en alternance chez Bouygues Telecom. Passionné par le développement web, les systèmes d’information et la gestion de projet.</p>
-    </section>
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="cv.html" style="color: #3b82f6;">Mon CV / À propos</a></li>
+        <li><a href="projets.html">Projets & Certifs</a></li>
+        <li><a href="cours.html">Cours PDF</a></li> 
+        <li><a href="tds.html">TDs / TP</a></li>
+    </ul>
+</nav>
 
-    <section class="section">
-        <h2>Expérience professionnelle</h2>
-        <ul>
-            <li>
-                <span class="job-title">Alternant Développement / Systèmes d’Information</span> 
-                <span class="company">- Bouygues Telecom</span>
-                <span class="date">2025 - 2026</span>
-                <ul>
-                    <li>Participation au développement d’outils internes</li>
-                    <li>Analyse et optimisation des processus SI</li>
-                    <li>Collaboration en méthodologie Agile avec l’équipe IT</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+<main style="display: grid; grid-template-columns: 1fr 2fr; gap: 20px; align-items: start;">
+    
+    <aside>
+        <section class="card">
+            <h3><i class="fas fa-contact-card"></i> Contact</h3>
+            <p style="font-size: 0.9rem;">
+                <i class="fas fa-map-marker-alt"></i> 9 rue Jacques Decour, 92150 Suresnes<br>
+                <i class="fas fa-envelope"></i> mandadabo590@gmail.com<br>
+                <i class="fas fa-phone"></i> +33 6 27 12 36 98<br>
+                <i class="fas fa-birthday-cake"></i> 06/04/2003<br>
+                <i class="fas fa-car"></i> Permis B
+            </p>
+        </section>
 
-    <section class="section">
-        <h2>Formation</h2>
-        <ul>
-            <li>
-                <span class="job-title">Master 1 MIAGE</span>
-                <span class="company">- Université de Nanterre</span>
-                <span class="date">2025 - 2026</span>
-            </li>
-            <li>
-                <span class="job-title">Licence Informatique / Systèmes d’Information</span>
-                <span class="company">- Université XYZ</span>
-                <span class="date">2022 - 2025</span>
-            </li>
-        </ul>
-    </section>
+        <section class="card">
+            <h3><i class="fas fa-code"></i> Compétences Informatiques</h3>
+            <div style="margin-bottom: 10px;">
+                <strong>Langages :</strong><br>
+                <span class="badge">C</span> <span class="badge">Java</span> <span class="badge">Python</span> <span class="badge">JS</span> <span class="badge">PHP</span> <span class="badge">SQL</span> <span class="badge">XML/JSON</span>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <strong>Web & Frameworks :</strong><br>
+                <span class="badge">HTML/CSS</span> <span class="badge">Node.js</span> <span class="badge">Django</span> <span class="badge">Flask</span>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <strong>Outils :</strong><br>
+                <span class="badge">Git</span> <span class="badge">Modélio (UML)</span> <span class="badge">Excel</span> <span class="badge">Qlik</span> <span class="badge">VSCode</span>
+            </div>
+            <div>
+                <strong>Systèmes :</strong><br>
+                <span class="badge">Ubuntu</span> <span class="badge">Linux</span>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Compétences</h2>
-        <ul>
-            <li>Développement : HTML, CSS, Java, Python</li>
-            <li>Frameworks : React, Spring Boot</li>
-            <li>Base de données : MySQL, PostgreSQL</li>
-            <li>Méthodologies : UML, Merise, Agile / Scrum</li>
-        </ul>
-    </section>
+        <section class="card">
+            <h3><i class="fas fa-globe"></i> Langues</h3>
+            <p><strong>Anglais :</strong> B2<br>
+               <strong>Espagnol :</strong> B1</p>
+        </section>
 
-    <section class="section">
-        <h2>Projets</h2>
+        <section class="card">
+            <h3><i class="fas fa-lightbulb"></i> Aptitudes</h3>
+            <span class="badge" style="background: #e0f2fe; color: #0369a1;">Organisée</span>
+            <span class="badge" style="background: #e0f2fe; color: #0369a1;">Dynamique</span>
+            <span class="badge" style="background: #e0f2fe; color: #0369a1;">Curieuse</span>
+        </section>
+
+        <section class="card">
+            <h3><i class="fas fa-heart"></i> Centres d'intérêt</h3>
+            <p style="font-size: 0.85rem;">
+                <strong>Sport :</strong> Step, Pilates, Yoga<br>
+                <strong>Culture :</strong> Littérature XIXe (Jane Austen, Brontë), Mode, Culture celtique<br>
+                <strong>Loisirs :</strong> Voyages, Cuisine
+            </p>
+        </section>
+    </aside>
+
+    <div class="content-right">
+        <section class="card">
+    <h2>Expériences Professionnelles</h2>
+    
+    <div style="margin-bottom: 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3>Ingénieur Outil et Automatisation (Alternance - Master 1 MIAGE)</h3>
+            <span class="badge">2025 - Présent</span>
+        </div>
+        <p><strong>Bouygues Telecom</strong></p>
         <ul>
-            <li>Projet Gestion de Bibliothèque - Développement de l’interface et base de données (HTML, Java, MySQL)</li>
-            <li>Application de suivi de commandes - Projet universitaire en groupe (React, Spring Boot)</li>
+            <li>Développement d'APIs et automatisation de processus métiers.</li>
+            <li>Optimisation des outils internes pour les équipes techniques.</li>
         </ul>
-    </section>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3>Apprentie AMOA - Administrateur Fonctionnel (Alternance Licence 3 MIAGE)</h3>
+            <span class="badge">2024 - 2025</span>
+        </div>
+        <p><strong>Ministère de l'Intérieur </strong></p>
+        <ul>
+            <li><strong>Projet RH :</strong> Recueil des besoins, recettage et tests fonctionnels.</li>
+            <li>Maintenance évolutive et conduite du changement.</li>
+        </ul>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3>Runner / Équipière (JO Paris 2024)</h3>
+            <span class="badge">Juillet - Août 2024</span>
+        </div>
+        <p><strong>Sodexo Live!</strong></p>
+        <ul>
+            <li><strong>Village Olympique (Saint-Denis) :</strong> Accueil des athlètes internationaux et gestion opérationnelle des espaces de distribution.</li>
+            <li><strong>Grand Palais (Paris) :</strong> Service, prise de commande et encaissement durant les épreuves d’escrime.</li>
+        </ul>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3>Vendeuse Conseillère</h3>
+            <span class="badge">Juillet 2023 - Déc. 2024</span>
+        </div>
+        <p><strong>Du Pareil Au Même (Paris 19e & 20e)</strong></p>
+        <ul>
+            <li>Vente assistée, gestion de la caisse, inventaires et tenue du magasin.</li>
+            <li>Ouverture et fermeture du point de vente en autonomie.</li>
+        </ul>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3>Baby-sitter (Garde périscolaire)</h3>
+            <span class="badge">2023 - 2024</span>
+        </div>
+        <p><strong>Kinougarde (Suresnes)</strong></p>
+        <p><small>Prise en charge d'enfants en sortie d'école, aide aux devoirs et organisation d'activités.</small></p>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3>Membre du CCJ (Engagement Citoyen)</h3>
+            <span class="badge">2020</span>
+        </div>
+        <p><strong>Ville de Suresnes</strong> | Bénévolat Croix-Rouge Française.</p>
+    </div>
+</section>
+
+        <section class="card">
+            <h2>Formations</h2>
+            <div style="margin-bottom: 15px;">
+                <strong>Master 1 MIAGE</strong><br>
+                <small>Université Paris Nanterre | 2025 - 2026</small>
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px; background: #f0fdf4; border-radius: 8px; border: 1px solid #bbf7d0;">
+                <strong style="color: #166534;">Licence MIASHS parcours MIAGE</strong><br>
+                <small>Université Paris Nanterre | 2022 - 2025</small><br>
+                <span style="color: #166534; font-weight: bold;">🏆 Mention Bien - Major de promotion</span>
+            </div>
+            <div>
+                <strong>CPGE MPSI</strong><br>
+                <small>Lycée Jacques Decour, Paris | 2021 - 2022</small>
+            </div>
+        </section>
+    </div>
 </main>
 
 <footer>
-    <p>© 2026 - Prénom Nom</p>
+    <p>© 2026 - Manda DABO | MIAGE Nanterre</p>
 </footer>
 
 </body>
